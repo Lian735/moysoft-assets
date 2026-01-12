@@ -1,0 +1,13 @@
+{
+  "description": "Resourcely helps you track, organize, and stay on top of your inventory with a clean design, smart highlights, and delightful haptics. Scan items, categorize them with color, set max stock levels, and get an instant overview of what needs attention.",
+  "logo": "logo.png",
+  "previews": ["EasyInventory.png", "ClearOverview.png", "QuickScanning.png", "iCloudSync.png", "SimpleTracking.png"],
+  "highlights": [
+    "Track your inventory with ease",
+    "QR Codes for max workflow",
+    "iCloud Synchronization across all your devices"
+  ],
+  "storeUrl": "",
+  "testflightUrl": "https://testflight.apple.com/join/MdXwxRAv",
+  "release": "v1.1.6 (4)"
+}

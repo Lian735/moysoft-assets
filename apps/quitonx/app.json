@@ -1,0 +1,20 @@
+{
+  "id": "quitonx",
+  "name": "QuitonX",
+  "subtitle": "Really quit apps.",
+  "description": "You know when sometimes you want to quit an app but it still stays open in the dock? QuitonX fixes that issue.",
+  "repo": "Lian735/QuitonX",
+  "logo": "https://raw.githubusercontent.com/Lian735/QuitonX/refs/heads/main/QuitonX.png",
+  "tags": ["macOS"],
+  "category": "Utility",
+  "platform": "macOS",
+  "featured": true,
+  "moysoftOriginal": true,
+  "tutorialVideos": [
+    {
+      "title": "Getting started tutorial",
+      "url": "https://www.youtube.com/watch?v=veaml3lK3_8",
+      "embed": "https://www.youtube.com/embed/veaml3lK3_8"
+    }
+  ]
+}
