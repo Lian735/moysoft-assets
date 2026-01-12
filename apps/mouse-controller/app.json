@@ -5,11 +5,11 @@
   "description": "Small utility that lets you control your Mac with your game controller.",
   "repo": "Lian735/Mouse_Controller",
 
-  "logo": "https://raw.githubusercontent.com/Lian735/Mouse_Controller/refs/heads/main/Mouse%20Controller/Assets.xcassets/MouseControllerAppLogo.imageset/Image.png",
+  "logo": "logo.png",
   "previews": [
-    "Preview1.png",
-    "Preview2.png",
-    "Preview3.png"
+    "screen1.png",
+    "screen2.png",
+    "screen3.png"
   ],
   "highlights": [
     "Highlight 1",
