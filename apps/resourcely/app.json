@@ -14,7 +14,7 @@
   "category": "Business",
   "platform": "iOS",
   "featured": true,
-  "moysoftOriginal": false,
+  "moysoftOriginal": true,
   "storeUrl": "",
   "testflightUrl": "https://testflight.apple.com/join/MdXwxRAv",
   "release": "v1.1.6 (4)"
