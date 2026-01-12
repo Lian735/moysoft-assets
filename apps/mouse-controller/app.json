@@ -4,17 +4,32 @@
   "subtitle": "Control your Mac with a game controller.",
   "description": "Small utility that lets you control your Mac with your game controller.",
   "repo": "Lian735/Mouse_Controller",
+
   "logo": "https://raw.githubusercontent.com/Lian735/Mouse_Controller/refs/heads/main/Mouse%20Controller/Assets.xcassets/MouseControllerAppLogo.imageset/Image.png",
-  "tags": ["macOS"],
-  "category": "Utility",
-  "platform": "macOS",
-  "featured": false,
-  "moysoftOriginal": true,
+  "previews": [
+    "Preview1.png",
+    "Preview2.png",
+    "Preview3.png"
+  ],
+  "highlights": [
+    "Highlight 1",
+    "Highlight 2",
+    "Highlight 3"
+  ],
   "tutorialVideos": [
     {
       "title": "Getting started tutorial",
       "url": "https://www.youtube.com/watch?v=veaml3lK3_8",
       "embed": "https://www.youtube.com/embed/veaml3lK3_8"
     }
-  ]
+  ],
+
+  "category": "Utility",
+  "platform": "macOS",
+  "featured": false,
+  "moysoftOriginal": true,
+
+  "storeUrl": "",
+  "testflightUrl": "",
+  "release": ""
 }
