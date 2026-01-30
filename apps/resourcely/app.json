@@ -1,5 +1,5 @@
 {
-  "uid": "Lian7235",
+  "uid": "Lian735",
   
   "id": "resourcely",
   "name": "Resourcely",
@@ -24,7 +24,7 @@
   "category": "Business",
   "platform": "iOS",
   "featured": true,
-  "moysoftOriginal": false,
+  "moysoftOriginal": true,
 
   "storeUrl": "",
   "testflightUrl": "https://testflight.apple.com/join/MdXwxRAv",
