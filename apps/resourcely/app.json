@@ -24,7 +24,7 @@
   "category": "Business",
   "platform": "iOS",
   "featured": true,
-  "moysoftOriginal": true,
+  "moysoftOriginal": false,
 
   "storeUrl": "",
   "testflightUrl": "https://testflight.apple.com/join/MdXwxRAv",
