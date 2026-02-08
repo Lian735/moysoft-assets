@@ -1,0 +1,32 @@
+{
+  "uid": "Lian735",
+  
+  "id": "moymo",
+  "name": "Moymo",
+  "subtitle": "Selbstgemachtes KI-Modell",
+  "description": "Moymo ist eine von Grund auf selbst entwickelte KI, die sich mit dir unterhalten und grundlegende Fragen beantworten kann. Sie befindet sich noch in der Entwicklung und kann bereits getestet werden. In der Beta sind aufgrund der Serverauslastung maximal 20 gleichzeitige Tester möglich. Aktuell ist Moymo nur auf Deutsch verfügbar.",
+
+  "logo": "logo.png",
+  "previews": [
+    "EigenesLLMPreview.png",
+    "ChatÜbersichtPreview.png",
+    "HellundDunkelPreview.png",
+    "GrundwissenPreview.png"
+  ],
+
+  "highlights": [
+    "Eigenes KI-Modell",
+    "Einfaches Chatten mit Moymo",
+    "Keine Anmeldung nötig"
+  ],
+
+  "category": "Productivity",
+  "platform": "iOS",
+  "featured": true,
+  "moysoftOriginal": true,
+
+  "storeUrl": "",
+  "testflightUrl": "https://testflight.apple.com/join/4qmeWPcq",
+  "release": "v1.0 (2)"
+}
+
