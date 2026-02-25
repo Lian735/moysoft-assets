@@ -14,6 +14,8 @@
     "GrundwissenPreview.png"
   ],
 
+  "bannerpath": "banner.png",
+
   "highlights": [
     "Eigenes KI-Modell",
     "Einfaches Chatten mit Moymo",
