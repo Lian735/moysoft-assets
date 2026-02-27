@@ -1,0 +1,33 @@
+{
+  "id": "customfolder",
+  "name": "CustomFolder",
+  "subtitle": "Customize your folders!",
+  "description": "CustomFolder lets you customize your folder icons!",
+  "repo": "Lian735/CustomFolder",
+
+  "logo": "CustomFolder.png",
+  "previews": [
+    "screen1.png",
+    "screen2.png"
+  ],
+  "highlights": [
+    "Apply custom folder icons from images or SF Symbols.",
+    "Overlay or replace icon modes with full visual controls."
+  ],
+  "tutorialVideos": [
+    {
+      "title": "Getting started tutorial",
+      "url": "https://www.youtube.com/watch?v=veaml3lK3_8",
+      "embed": "https://www.youtube.com/embed/veaml3lK3_8"
+    }
+  ],
+
+  "category": "Utility",
+  "platform": "macOS",
+  "featured": false,
+  "moysoftOriginal": true,
+
+  "storeUrl": "",
+  "testflightUrl": "",
+  "release": "1.0"
+}
