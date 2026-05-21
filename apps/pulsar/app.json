@@ -24,10 +24,7 @@
     }
   ],
 
-  "category": [
-    "Utility",
-    "After Effects"
-  ],
+  "category": "Utility",
   "platform": "macOS",
   "featured": true,
   "moysoftOriginal": true,
