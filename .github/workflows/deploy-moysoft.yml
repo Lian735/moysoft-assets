@@ -13,17 +13,20 @@ jobs:
         env:
           NETLIFY_HOOK: ${{ secrets.NETLIFY_HOOK }}
         run: |
-          if [ -z "$NETLIFY_HOOK" ]; then
+          hook_url="$(printf '%s' "$NETLIFY_HOOK" | tr -d '\r\n' | sed -e 's/^[[:space:]]*//' -e 's/[[:space:]]*$//' -e 's/^"//' -e 's/"$//' -e "s/^'//" -e "s/'$//")"
+
+          if [ -z "$hook_url" ]; then
             echo "NETLIFY_HOOK secret is missing. Add it in GitHub repository Settings > Secrets and variables > Actions."
             exit 1
           fi
 
-          if [[ "$NETLIFY_HOOK" != https://api.netlify.com/build_hooks/* ]]; then
+          if [[ "$hook_url" != https://api.netlify.com/build_hooks/* ]]; then
             echo "NETLIFY_HOOK must be a full Netlify build hook URL starting with https://api.netlify.com/build_hooks/."
             exit 1
           fi
 
+          echo "Triggering Netlify build hook..."
           curl --fail --show-error --silent -X POST \
             -H "Content-Type: application/json" \
             -d '{}' \
-            "$NETLIFY_HOOK"
+            "$hook_url"
