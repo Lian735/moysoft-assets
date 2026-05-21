@@ -9,4 +9,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Trigger Netlify build
-        run: curl -X POST -H "Content-Type: application/json" -d '{}' https://api.netlify.com/build_hooks/6a0f4a5a197ebdbba5cf40f9
+        run: curl -X POST -H "Content-Type: application/json" -d '{}' "${{ secrets.NETLIFY_HOOK }}"
