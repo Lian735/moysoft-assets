@@ -10,8 +10,20 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Trigger Netlify build
+        env:
+          NETLIFY_HOOK: ${{ secrets.NETLIFY_HOOK }}
         run: |
-          curl -X POST \
+          if [ -z "$NETLIFY_HOOK" ]; then
+            echo "NETLIFY_HOOK secret is missing. Add it in GitHub repository Settings > Secrets and variables > Actions."
+            exit 1
+          fi
+
+          if [[ "$NETLIFY_HOOK" != https://api.netlify.com/build_hooks/* ]]; then
+            echo "NETLIFY_HOOK must be a full Netlify build hook URL starting with https://api.netlify.com/build_hooks/."
+            exit 1
+          fi
+
+          curl --fail --show-error --silent -X POST \
             -H "Content-Type: application/json" \
             -d '{}' \
-            "${{ secrets.NETLIFY_HOOK }}"
+            "$NETLIFY_HOOK"
