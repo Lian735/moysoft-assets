@@ -3,10 +3,15 @@ name: Deploy moysoft website
 on:
   push:
     branches: [main]
+  workflow_dispatch:
 
 jobs:
   deploy:
     runs-on: ubuntu-latest
     steps:
       - name: Trigger Netlify build
-        run: curl -X POST -H "Content-Type: application/json" -d '{}' "${{ secrets.NETLIFY_HOOK }}"
+        run: |
+          curl -X POST \
+            -H "Content-Type: application/json" \
+            -d '{}' \
+            "${{ secrets.NETLIFY_HOOK }}"
