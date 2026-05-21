@@ -12,17 +12,31 @@ jobs:
       - name: Trigger Netlify build
         env:
           NETLIFY_HOOK: ${{ secrets.NETLIFY_HOOK }}
+          NETLIFY_BUILD_HOOK: ${{ secrets.NETLIFY_BUILD_HOOK }}
+          BUILD_HOOK: ${{ secrets.BUILD_HOOK }}
           NETLIFY_HOOK_VAR: ${{ vars.NETLIFY_HOOK }}
         run: |
-          raw_hook_url="${NETLIFY_HOOK:-$NETLIFY_HOOK_VAR}"
+          raw_hook_url="${NETLIFY_HOOK:-${NETLIFY_BUILD_HOOK:-${BUILD_HOOK:-$NETLIFY_HOOK_VAR}}}"
           hook_url="$(printf '%s' "$raw_hook_url" | tr -d '\r\n' | sed -e 's/^[[:space:]]*//' -e 's/[[:space:]]*$//' -e 's/^"//' -e 's/"$//' -e "s/^'//" -e "s/'$//")"
           hook_length="$(printf '%s' "$hook_url" | wc -c | tr -d ' ')"
 
-          echo "NETLIFY_HOOK source: $([ -n "$NETLIFY_HOOK" ] && echo secret || echo variable-or-empty)"
+          if [ -n "$NETLIFY_HOOK" ]; then
+            hook_source="NETLIFY_HOOK secret"
+          elif [ -n "$NETLIFY_BUILD_HOOK" ]; then
+            hook_source="NETLIFY_BUILD_HOOK secret"
+          elif [ -n "$BUILD_HOOK" ]; then
+            hook_source="BUILD_HOOK secret"
+          elif [ -n "$NETLIFY_HOOK_VAR" ]; then
+            hook_source="NETLIFY_HOOK variable"
+          else
+            hook_source="empty"
+          fi
+
+          echo "Netlify hook source: $hook_source"
           echo "NETLIFY_HOOK length after cleanup: $hook_length"
 
           if [ -z "$hook_url" ]; then
-            echo "NETLIFY_HOOK is missing. Add it as a repository secret in GitHub Settings > Secrets and variables > Actions."
+            echo "Netlify build hook is missing. Add NETLIFY_BUILD_HOOK as a repository secret in GitHub Settings > Secrets and variables > Actions."
             exit 1
           fi
 
