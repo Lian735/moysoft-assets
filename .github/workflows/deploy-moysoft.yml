@@ -12,11 +12,17 @@ jobs:
       - name: Trigger Netlify build
         env:
           NETLIFY_HOOK: ${{ secrets.NETLIFY_HOOK }}
+          NETLIFY_HOOK_VAR: ${{ vars.NETLIFY_HOOK }}
         run: |
-          hook_url="$(printf '%s' "$NETLIFY_HOOK" | tr -d '\r\n' | sed -e 's/^[[:space:]]*//' -e 's/[[:space:]]*$//' -e 's/^"//' -e 's/"$//' -e "s/^'//" -e "s/'$//")"
+          raw_hook_url="${NETLIFY_HOOK:-$NETLIFY_HOOK_VAR}"
+          hook_url="$(printf '%s' "$raw_hook_url" | tr -d '\r\n' | sed -e 's/^[[:space:]]*//' -e 's/[[:space:]]*$//' -e 's/^"//' -e 's/"$//' -e "s/^'//" -e "s/'$//")"
+          hook_length="$(printf '%s' "$hook_url" | wc -c | tr -d ' ')"
+
+          echo "NETLIFY_HOOK source: $([ -n "$NETLIFY_HOOK" ] && echo secret || echo variable-or-empty)"
+          echo "NETLIFY_HOOK length after cleanup: $hook_length"
 
           if [ -z "$hook_url" ]; then
-            echo "NETLIFY_HOOK secret is missing. Add it in GitHub repository Settings > Secrets and variables > Actions."
+            echo "NETLIFY_HOOK is missing. Add it as a repository secret in GitHub Settings > Secrets and variables > Actions."
             exit 1
           fi
 
@@ -26,7 +32,16 @@ jobs:
           fi
 
           echo "Triggering Netlify build hook..."
-          curl --fail --show-error --silent -X POST \
+          response_file="$(mktemp)"
+          http_status="$(curl --show-error --silent -o "$response_file" -w "%{http_code}" -X POST \
             -H "Content-Type: application/json" \
             -d '{}' \
-            "$hook_url"
+            "$hook_url")"
+
+          echo "Netlify response status: $http_status"
+
+          if [ "$http_status" -lt 200 ] || [ "$http_status" -gt 299 ]; then
+            echo "Netlify rejected the build hook request."
+            cat "$response_file"
+            exit 1
+          fi
