@@ -1,0 +1,38 @@
+{
+  "id": "pulsarcopy",
+  "name": "Pulsar copy",
+  "subtitle": "Beat markers for After Effects",
+  "description": "Pulsar detects beats in your audio, lets you refine them on a waveform, and syncs markers to After Effects.",
+  "repo": "Lian735/Pulsar",
+
+  "logo": "Pulsar.png",
+  "previews": [
+    "screen1.png",
+    "screen2.png",
+    "screen3.png"
+  ],
+  "highlights": [
+    "Detect and edit beat markers on an interactive waveform with playback preview.",
+    "Separate stems with Demucs, then analyze specific tracks for tighter hits.",
+    "Sync markers—and optional preview audio—to After Effects via the bundled CEP panel."
+  ],
+  "tutorialVideos": [
+    {
+      "title": "Getting started tutorial",
+      "url": "https://www.youtube.com/watch?v=veaml3lK3_8",
+      "embed": "https://www.youtube.com/embed/veaml3lK3_8"
+    }
+  ],
+
+  "category": [
+    "Utility",
+    "After Effects"
+  ],
+  "platform": "macOS",
+  "featured": true,
+  "moysoftOriginal": true,
+
+  "storeUrl": "",
+  "testflightUrl": "",
+  "release": ""
+}
