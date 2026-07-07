@@ -2,7 +2,7 @@
   "id": "morlane",
   "name": "Morlane",
   "subtitle": "Build local AI model projects.",
-  "description": "Morlane is a Mac-native app for building, training, testing, and exporting small local AI model projects.",
+  "description": "Morlane is a Mac-native app for building, training, testing, and exporting local AI model projects.",
   "repo": "moysoft-com/Morlane",
 
   "logo": "Morlane.png",
