@@ -1,7 +1,11 @@
 {
   "category" : "Utility",
   "description" : "Small utility that lets you control your Mac with your game controller.",
+  "downloads" : [
+
+  ],
   "featured" : false,
+  "hidden" : false,
   "highlights" : [
     "Add custom Controller Shortcuts.",
     "Full Controller Rumble Support (soon)."
@@ -18,9 +22,11 @@
   ],
   "release" : "",
   "repo" : "Lian735/Mouse_Controller",
+  "socials" : [
+
+  ],
   "storeUrl" : "",
   "subtitle" : "Control your Mac with a game controller.",
-  "testflightUrl" : "",
   "tutorialVideos" : [
     {
       "embed" : "https://www.youtube.com/embed/veaml3lK3_8",
