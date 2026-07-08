@@ -1,34 +1,31 @@
 {
-  "id": "quitonx",
-  "name": "QuitonX",
-  "subtitle": "Really quit apps.",
-  "description": "You know when sometimes you want to quit an app but it still stays open in the dock? QuitonX fixes that issue.",
-  "repo": "Lian735/QuitonX",
-
-  "logo": "QuitonX.png",
-  "previews": [
+  "category" : "Utility",
+  "description" : "You know when sometimes you want to quit an app but it still stays open in the dock? QuitonX fixes that issue.",
+  "featured" : false,
+  "highlights" : [
+    "Really quit apps.",
+    "Full control."
+  ],
+  "id" : "quitonx",
+  "logo" : "QuitonX.png",
+  "moysoftOriginal" : true,
+  "name" : "QuitonX",
+  "platform" : "macOS",
+  "previews" : [
     "screen1.png",
     "screen2.png"
   ],
-  "highlights": [
-    "Really quit apps.",
-    "Full control."  
-  ],
-  "tutorialVideos": [
+  "release" : "",
+  "repo" : "Lian735/QuitonX",
+  "sortOrder" : 8,
+  "storeUrl" : "",
+  "subtitle" : "Really quit apps.",
+  "testflightUrl" : "",
+  "tutorialVideos" : [
     {
-      "title": "Getting started tutorial",
-      "url": "https://www.youtube.com/watch?v=veaml3lK3_8",
-      "embed": "https://www.youtube.com/embed/veaml3lK3_8"
+      "embed" : "https://www.youtube.com/embed/veaml3lK3_8",
+      "title" : "Getting started tutorial",
+      "url" : "https://www.youtube.com/watch?v=veaml3lK3_8"
     }
-  ],
-
-  "category": "Utility",
-  "platform": "macOS",
-  "featured": false,
-  "moysoftOriginal": true,
-
-  "storeUrl": "",
-  "testflightUrl": "",
-  "release": ""
+  ]
 }
-
