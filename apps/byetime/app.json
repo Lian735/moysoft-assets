@@ -2,7 +2,7 @@
   "category" : "Utility",
   "description" : "ByeTime is a lightweight menu bar utility that lets you schedule your Mac to sleep after a set duration or at a specific time. Choose from quick presets or fine‑tune hours and minutes.",
   "downloads" : [
-    "https://google.com"
+
   ],
   "featured" : false,
   "highlights" : [
@@ -19,11 +19,9 @@
     "screen2.png",
     "screen3.png"
   ],
-  "release" : "",
   "repo" : "Lian735/ByeTime",
   "storeUrl" : "",
   "subtitle" : "A simple, elegant sleep timer for your Mac.",
-  "testflightUrl" : "",
   "tutorialVideos" : [
 
   ]
