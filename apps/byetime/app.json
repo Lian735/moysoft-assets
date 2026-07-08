@@ -1,34 +1,31 @@
 {
-  "id": "byetime",
-  "name": "ByeTime",
-  "subtitle": "A simple, elegant sleep timer for your Mac.",
-  "description": "ByeTime is a lightweight menu bar utility that lets you schedule your Mac to sleep after a set duration or at a specific time. Choose from quick presets or fine‑tune hours and minutes.",
-  "repo": "Lian735/ByeTime",
-
-  "logo": "logo.png",
-  "previews": [
+  "category" : "Utility",
+  "description" : "ByeTime is a lightweight menu bar utility that lets you schedule your Mac to sleep after a set duration or at a specific time. Choose from quick presets or fine‑tune hours and minutes.",
+  "featured" : false,
+  "highlights" : [
+    "Start a sleep timer by duration or target time.",
+    "Much customization."
+  ],
+  "id" : "byetime",
+  "logo" : "logo.png",
+  "moysoftOriginal" : true,
+  "name" : "ByeTime",
+  "platform" : "macOS",
+  "previews" : [
     "screen1.png",
     "screen2.png",
     "screen3.png"
   ],
-  "highlights": [
-    "Start a sleep timer by duration or target time.",
-    "Much customization."
-  ],
-  "tutorialVideos": [
+  "release" : "",
+  "repo" : "Lian735/ByeTime",
+  "storeUrl" : "",
+  "subtitle" : "A simple, elegant sleep timer for your Mac.",
+  "testflightUrl" : "",
+  "tutorialVideos" : [
     {
-      "title": "Installation tutorial",
-      "url": "https://www.youtube.com/watch?v=veaml3lK3_8",
-      "embed": "https://www.youtube.com/embed/veaml3lK3_8"
+      "embed" : "https://www.youtube.com/embed/veaml3lK3_8",
+      "title" : "Installation tutorial",
+      "url" : "https://www.youtube.com/watch?v=veaml3lK3_8"
     }
-  ],
-
-  "category": "Utility",
-  "platform": "macOS",
-  "featured": false,
-  "moysoftOriginal": true,
-
-  "storeUrl": "",
-  "testflightUrl": "",
-  "release": ""
+  ]
 }

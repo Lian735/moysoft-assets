@@ -1,33 +1,30 @@
 {
-  "id": "customfolder",
-  "name": "CustomFolder",
-  "subtitle": "Customize your folders!",
-  "description": "CustomFolder lets you customize your folder icons!",
-  "repo": "Lian735/CustomFolder",
-
-  "logo": "CustomFolder.png",
-  "previews": [
-    "screen1.png",
-    "screen2.png"
-  ],
-  "highlights": [
+  "category" : "Utility",
+  "description" : "CustomFolder lets you customize your folder icons!",
+  "featured" : false,
+  "highlights" : [
     "Apply custom folder icons from images or SF Symbols.",
     "Overlay or replace icon modes with full visual controls."
   ],
-  "tutorialVideos": [
-    {
-      "title": "Getting started tutorial",
-      "url": "https://www.youtube.com/watch?v=veaml3lK3_8",
-      "embed": "https://www.youtube.com/embed/veaml3lK3_8"
-    }
+  "id" : "customfolder",
+  "logo" : "CustomFolder.png",
+  "moysoftOriginal" : true,
+  "name" : "CustomFolder",
+  "platform" : "macOS",
+  "previews" : [
+    "screen1.png",
+    "screen2.png"
   ],
-
-  "category": "Utility",
-  "platform": "macOS",
-  "featured": false,
-  "moysoftOriginal": true,
-
-  "storeUrl": "",
-  "testflightUrl": "",
-  "release": ""
+  "release" : "",
+  "repo" : "Lian735/CustomFolder",
+  "storeUrl" : "",
+  "subtitle" : "Customize your folders!",
+  "testflightUrl" : "",
+  "tutorialVideos" : [
+    {
+      "embed" : "https://www.youtube.com/embed/veaml3lK3_8",
+      "title" : "Getting started tutorial",
+      "url" : "https://www.youtube.com/watch?v=veaml3lK3_8"
+    }
+  ]
 }

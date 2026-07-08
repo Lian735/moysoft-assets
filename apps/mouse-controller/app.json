@@ -1,34 +1,31 @@
 {
-  "id": "mouse-controller",
-  "name": "Mouse Controller",
-  "subtitle": "Control your Mac with a game controller.",
-  "description": "Small utility that lets you control your Mac with your game controller.",
-  "repo": "Lian735/Mouse_Controller",
-
-  "logo": "logo.png",
-  "previews": [
+  "category" : "Utility",
+  "description" : "Small utility that lets you control your Mac with your game controller.",
+  "featured" : false,
+  "highlights" : [
+    "Add custom Controller Shortcuts.",
+    "Full Controller Rumble Support (soon)."
+  ],
+  "id" : "mouse-controller",
+  "logo" : "logo.png",
+  "moysoftOriginal" : true,
+  "name" : "Mouse Controller",
+  "platform" : "macOS",
+  "previews" : [
     "screen1.png",
     "screen2.png",
     "screen3.png"
   ],
-  "highlights": [
-    "Add custom Controller Shortcuts.",
-    "Full Controller Rumble Support (soon)."
-  ],
-  "tutorialVideos": [
+  "release" : "",
+  "repo" : "Lian735/Mouse_Controller",
+  "storeUrl" : "",
+  "subtitle" : "Control your Mac with a game controller.",
+  "testflightUrl" : "",
+  "tutorialVideos" : [
     {
-      "title": "Getting started tutorial",
-      "url": "https://www.youtube.com/watch?v=veaml3lK3_8",
-      "embed": "https://www.youtube.com/embed/veaml3lK3_8"
+      "embed" : "https://www.youtube.com/embed/veaml3lK3_8",
+      "title" : "Getting started tutorial",
+      "url" : "https://www.youtube.com/watch?v=veaml3lK3_8"
     }
-  ],
-
-  "category": "Utility",
-  "platform": "macOS",
-  "featured": false,
-  "moysoftOriginal": true,
-
-  "storeUrl": "",
-  "testflightUrl": "",
-  "release": ""
+  ]
 }

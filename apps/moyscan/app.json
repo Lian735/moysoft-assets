@@ -1,34 +1,27 @@
 {
-  "uid": "Lian735",
-
-  "id": "moyscan",
-  "name": "MoyScan",
-  "subtitle": "Scan documents easily and export them",
-  "description": "MoyScan is a lightweight document scanner app for iPad and iPhone that automatically detects documents and lets you organize, edit and export them easily.",
-  
-  "logo": "logo.png",
-  "previews": [
+  "bannerpath" : "banner.png",
+  "category" : "Productivity",
+  "description" : "MoyScan is a lightweight document scanner app for iPad and iPhone that automatically detects documents and lets you organize, edit and export them easily.",
+  "featured" : true,
+  "highlights" : [
+    "Organize easily",
+    "Crop scans and enhance them with filters",
+    "Export as PDF or Photo"
+  ],
+  "id" : "moyscan",
+  "logo" : "logo.png",
+  "moysoftOriginal" : true,
+  "name" : "MoyScan",
+  "platform" : "iOS",
+  "previews" : [
     "SimpleScanning.png",
     "GoodManagement.png",
     "SimpleEditor.png",
     "ManyColorSchemes.png"
   ],
-  "bannerpath": "banner.png",
-
-  "highlights": [
-    "Organize easily",
-    "Crop scans and enhance them with filters",
-    "Export as PDF or Photo"
-  ],
-
-  "category": "Productivity",
-  "platform": "iOS",
-
-  "featured": true,
-  "moysoftOriginal": true,
-
-  "storeUrl": "",
-  "testflightUrl": "https://testflight.apple.com/join/rgmbecCh",
-  "release": "v1.0"
+  "release" : "v1.0",
+  "storeUrl" : "",
+  "subtitle" : "Scan documents easily and export them",
+  "testflightUrl" : "https://testflight.apple.com/join/rgmbecCh",
+  "uid" : "Lian735"
 }
-
