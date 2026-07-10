@@ -2,6 +2,7 @@
   "category" : "Utility",
   "description" : "CustomFolder lets you customize your folder icons!",
   "featured" : false,
+  "hidden" : false,
   "highlights" : [
     "Apply custom folder icons from images or SF Symbols.",
     "Overlay or replace icon modes with full visual controls."
@@ -17,7 +18,7 @@
   ],
   "release" : "",
   "repo" : "Lian735/CustomFolder",
-  "sortOrder" : 2,
+  "sortOrder" : 1,
   "storeUrl" : "",
   "subtitle" : "Customize your folders!",
   "testflightUrl" : "",

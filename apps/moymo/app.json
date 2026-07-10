@@ -4,6 +4,7 @@
   "category" : "Productivity",
   "description" : "Moymo ist eine von Grund auf selbst entwickelte KI, die sich mit dir unterhalten und grundlegende Fragen beantworten kann. Sie befindet sich noch in der Entwicklung und kann bereits getestet werden. In der Beta sind aufgrund der Serverauslastung maximal 20 gleichzeitige Tester möglich. Aktuell ist Moymo nur auf Deutsch verfügbar.",
   "featured" : false,
+  "hidden" : false,
   "highlights" : [
     "Eigenes KI-Modell",
     "Einfaches Chatten mit Moymo",

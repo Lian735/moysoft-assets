@@ -2,6 +2,7 @@
   "category" : "Utility",
   "description" : "Pulsar detects beats in your audio, lets you refine them on a waveform, and syncs markers to After Effects.",
   "featured" : false,
+  "hidden" : false,
   "highlights" : [
     "Detect and edit beat markers on an interactive waveform with playback preview.",
     "Separate stems with Demucs, then analyze specific tracks for tighter hits.",

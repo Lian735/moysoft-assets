@@ -3,6 +3,7 @@
   "category" : "Productivity",
   "description" : "MoyScan is a lightweight document scanner app for iPad and iPhone that automatically detects documents and lets you organize, edit and export them easily.",
   "featured" : true,
+  "hidden" : false,
   "highlights" : [
     "Organize easily",
     "Crop scans and enhance them with filters",

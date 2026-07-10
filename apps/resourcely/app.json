@@ -2,6 +2,7 @@
   "category" : "Business",
   "description" : "Resourcely helps you track, organize, and stay on top of your inventory with a clean design, smart highlights, and delightful haptics. Scan items, categorize them with color, set max stock levels, and get an instant overview of what needs attention.",
   "featured" : true,
+  "hidden" : false,
   "highlights" : [
     "Track your inventory with ease",
     "QR Codes for max workflow",
