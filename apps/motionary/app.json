@@ -1,0 +1,39 @@
+{
+  "bannerpath" : "product_page_header.png",
+  "category" : "Creativity",
+  "description" : "Motionary is a video editor for iPhone that brings multitrack editing, precise animation, and music-driven cuts into one timeline.",
+  "downloads" : [
+
+  ],
+  "featured" : true,
+  "hidden" : false,
+  "highlights" : [
+    "Layer video, audio, and text.",
+    "Animate with keyframes and editable curves.",
+    "Cut to the beat and add speed ramps."
+  ],
+  "id" : "motionary",
+  "links" : [
+
+  ],
+  "logo" : "Pasted 2026-11-22 at 2.36.53 AM.png",
+  "moysoftOriginal" : true,
+  "name" : "Motionary",
+  "platform" : "iOS",
+  "previews" : [
+    "Multi-Layer_Editing.png",
+    "Add_Haptics_to_Your_Edits.png",
+    "Browse_Effects.png",
+    "Keyframes_&_Curves.png"
+  ],
+  "repo" : "",
+  "socials" : [
+
+  ],
+  "sortOrder" : 1,
+  "subtitle" : "All-in-One Video Editor",
+  "tutorialVideos" : [
+
+  ],
+  "uid" : "moysoft"
+}

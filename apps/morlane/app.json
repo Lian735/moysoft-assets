@@ -1,7 +1,7 @@
 {
   "category" : "Developer Tools",
   "description" : "Morlane is a Mac-native app for building, training, testing, and exporting local AI model projects.",
-  "featured" : true,
+  "featured" : false,
   "hidden" : false,
   "highlights" : [
     "Create local Tiny LM projects with editable files and configurations.",
@@ -23,7 +23,7 @@
   "providerName" : "",
   "release" : "",
   "repo" : "moysoft-com/Morlane",
-  "sortOrder" : 3,
+  "sortOrder" : 4,
   "storeUrl" : "",
   "subtitle" : "Build local AI model projects.",
   "testflightUrl" : "",
